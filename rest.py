@@ -1,6 +1,5 @@
-from flask import Flask, request, jsonify
-from flask_restful import Resource, Api, reqparse
-from json import dumps
+from flask import Flask, request
+from flask_restful import Resource, Api
 from helperFunctions import Functions
 import requests_cache
 from waitress import serve
